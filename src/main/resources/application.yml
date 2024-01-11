@@ -1,0 +1,13 @@
+server:
+  port: 9017
+  
+spring:
+  application:
+    name:   CONFIG-SERVER
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Zailta/MicroservicesConfiguration
+          clone-on-start: true
